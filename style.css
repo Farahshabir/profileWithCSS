@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    width: auto;
+    height: 90px;
+}
+
+.logo{
+    width: 209px;
+    height: 164px;
+    margin-right: 14px;
+    padding-top: 10px;
+    margin-top: -46px;
+}
+
+.menu{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 19px;
+    margin-left: 170px;
+    list-style-type: none;
+}
+
+.menu li{
+    margin-right: 20px;
+    margin-left: 10px;
+    transition: color 0.3s;
+    cursor: pointer;
+    color: rgb(20 184 166);
+
+}
+.menu li a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(20 184 166);
+}
+
+.sectionOne{
+    display: flex;
+}
+
+.sectionPara{
+    font-family: serif;
+    font-size: medium;
+    margin-left: 44px;
+    line-height: 1.5;
+}
+.sectionOneIntro h1{
+    margin-top: 49px;
+    margin-left: 43px;
+    font-size: x-large;
+}
+
+.sectionOneIntro{
+    margin-left: 9px;
+    padding-left: 10px;
+    width: 700px;
+    height: 350px;
+}
+.sectionOneIntro h1{
+    margin-top: 40px;
+    font-size:large;
+}
+.sectionTwo{
+    margin-left: 10px;
+    width: 700px;
+    height: 350px;
+    float: right;
+}
+.sectionTwo img{
+        float: right;
+}
+ .aboutMain{
+    display: flex;
+    margin-top: -50px;
+ }  
+ .aboutImage{
+    transform: rotate(270deg)
+ }
+ .aboutMain img{
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    transform: (45deg);
+  }
+
+  .aboutHeading h1{
+    margin-top: 10px;
+    font-size: 48px;
+    color: rgb(20 184 166);
+    margin-left: 196px;
+    font-family: serif;
+  }
+  .aboutPara{
+    line-height: 1.5;
+    width: 567px;
+    height: 350px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: serif;
+    margin-left: -40px;
+  }
+ 
+  .aboutButton{
+    margin-top: 12px;
+    background-color: rgb(20 184 166);
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 105px;
+    height: 38px;
+  }
+  .skill{
+    display: flex;
+  }
+  .skillHeading h1{
+    margin-top: -50px;
+    font-size: 48px;
+    color: rgb(20 184 166);
+    margin-left: 460px;
+    font-family: serif;
+  }
+
+  .skillsubHeading ul {
+    list-style-type: none;
+    padding-left: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: serif;
+  }
+  .skillsubHeading{
+    width: 700px;
+    margin-left: 100px;
+  }
+  .skillOne{
+   border-left-style: double;
+   border-color:rgb(20 184 166) ;
+  }
+
+  .skillsubHeading h2{
+    font-size: 20px;
+    margin-left: -94px;
+    font-family: serif;
+    color: rgb(20 184 166);
+  }
+  .project{
+    display: flex;
+  }
+  .projectHeading h1{
+    font-size: 48px;
+    color: rgb(20 184 166);
+    margin-left: 450px;
+    font-family: serif;
+  }
+  .footer{
+    background-color: rgb(20 184 166);
+    height: 220px;
+    margin-top: 5px;
+  }
+  .socialIcons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .socialIcons i{
+    margin-top: 75px;
+    color: white;
+  }
+  .reserved{
+    color: white;
+    font-size: 13px;
+    line-height: 0.4;
+    font-family: sans-serif;
+    margin-top: 80px;
+  }
+
+  .aboutPara1{
+    line-height: 1.5;
+    width: 700px;
+    height: 350px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: serif;
+  }
+  .aboutHeading1 h1{
+    font-size: 48px;
+    color: rgb(20 184 166);
+    margin-left: 196px;
+    font-family: serif;
+  }
+ 
+ .aboutMain1{
+    display: flex;
+    width: 832px;
+ }
+ .aboutMain1 img{
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    margin-top: 82px;
+    transform: rotate(-90deg);
+  }
+ 
+  .contactHeading h1{
+    font-size: 48px;
+    color: rgb(20 184 166);
+    margin-left: 500px;
+    font-family: serif;
+  }
+
+  .getBack{
+    margin-left: 473px;
+    font-size: large;
+    margin-top: -16px;
+    color: rgb(20 184 166);
+  }
+  .ContactwithUS{
+    display: flex;
+    width: 100%;
+    margin-top: 62px;
+  }
+  .contactImage{
+    margin-left: 200px;
+  }
+
+  .field1{
+    margin-left: 180px;
+  }
+  .textField{
+    border: 1px solid rgb(20 184 166);
+    border-radius: 6px;
+    width: 200px;
+    height: 32px;
+  }
+  .textField1{
+    margin-left: 21px;
+    width: 196px;
+    height: 32px;
+    border: 1px solid rgb(20 184 166);
+    border-radius: 6px;
+    margin-top: 11px;
+  }
+  .messageBox{
+    border: 1px solid rgb(20 184 166);
+    border-radius: 6px;
+    width: 498px;
+    height: 100px;
+    margin-left: 268px;
+    margin-top: 13px;
+  }
+  .formButton{
+    margin-left: 265px;
+    background-color: rgb(20 184 166);
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 105px;
+    height: 38px;
+    margin-top: 15px;
+  }
